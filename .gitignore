@@ -18,6 +18,15 @@ certificates
 # Editor directories
 .vscode
 .idea
+.cursor
+
+# Local tool config
+.mcp.json
+.npmrc
+AGENTS.md
+
+# Aura review scan artifacts (reports are in reviews/)
+aura-review/
 
 # OS files
 .DS_Store
