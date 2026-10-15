@@ -1,0 +1,34 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+coverage
+
+# Retained app bundles from `cognite apps deploy` (signed before publish)
+.cognite-bundles
+
+# Local HTTPS certificates from `cognite apps setup-https`
+certificates
+
+# Environment variables
+.env
+.env.local
+
+# Editor directories
+.vscode
+.idea
+.cursor
+
+# Local tool config
+.mcp.json
+.npmrc
+AGENTS.md
+
+# Aura review scan artifacts (reports are in reviews/)
+aura-review/
+
+# OS files
+.DS_Store
+Thumbs.db
+

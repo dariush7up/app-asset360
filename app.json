@@ -1,0 +1,16 @@
+{
+  "name": "My Asset 360 App ",
+  "description": "Find what you are looking one within few clicks",
+  "externalId": "app-asset360",
+  "versionTag": "0.0.1",
+  "infra": "appsApi",
+  "deployments": [
+    {
+      "org": "publicdata",
+      "project": "publicdatacdm",
+      "baseUrl": "https://api.cognitedata.com",
+      "deployClientId": "",
+      "deploySecretName": "PUBLICDATA_PUBLICDATACDM_HTTPS://API.COGNITEDATA.COM"
+    }
+  ]
+}
